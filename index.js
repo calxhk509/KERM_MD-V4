@@ -1,5 +1,5 @@
-/*created by Kgtech 🕵
-contact dev1 237656520674 ♻️
+/*created by ANONYMOUS 🕵
+contact dev1 50941050126 ♻️
 contact dev2 237650564445 ♻️
 © Copy coder alert ⚠
 */
@@ -34,7 +34,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['237656520674']
+const ownerNumber = ['50941050126']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -95,10 +95,10 @@ let up = `*╭──────────────●●►*
 
 *https://youtube.com/@KermHackTools-s9s*
 
-*╭⊱✫🐲 KERM_MD-V4 🐲✫⊱╮*
-*│✫➠ - 📂REPOSITORY NAME:* *KERM_MD-V4*
+*╭⊱✫🐲 ANONYMOUS 🐲✫⊱╮*
+*│✫➠ - 📂REPOSITORY NAME:* *ANONYMOUS*
 *│✫➠ - 📃DESCRIPTION:* *THE WORLD BEST WHATSAPP BOT♻️*
-*│✫➠ - 🛡️OWNER:* *KG TECH🇨🇲*
+*│✫➠ - 🛡️OWNER:* *ANONYMOUS*
 *│✫➠ - 🌐URL:* *https://github.com/Kgtech-cmr/KERM_MD-V4*
 
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
@@ -157,9 +157,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               }
               let type = mime.split("/")[0] + "Message"
               if (mime === "application/pdf") {
-                return conn.sendMessage(jid, { document: await getBuffer(url), mimetype: 'application/pdf', caption: caption, ...options }, { quoted: quoted, ...options })
-              }
-              if (mime.split("/")[0] === "image") {
+                return b("/")[0] === "image") {
                 return conn.sendMessage(jid, { image: await getBuffer(url), caption: caption, ...options }, { quoted: quoted, ...options })
               }
               if (mime.split("/")[0] === "video") {
